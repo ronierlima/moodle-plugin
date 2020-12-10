@@ -1,0 +1,20 @@
+{
+  "name": "moodle-plugin",
+  "description": "Deixando seu moodle mais agradável e menos poluído",
+  "version": "1.0",
+  "author":"Ronier Lima",
+  "content_scripts": [
+    {
+      "matches": [
+        "https://moodle2.quixada.ufc.br/"
+      ],
+      "js": [
+        "content.js"
+      ]
+    }
+  ],
+  "browser_action": {
+    "default_icon": "logo.png"
+  },
+"manifest_version": 2
+}
